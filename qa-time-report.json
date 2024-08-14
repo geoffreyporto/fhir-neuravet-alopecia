@@ -1,0 +1,139 @@
+{
+  "date" : "Wed, 14 Aug, 2024 02:23:15 -0600",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fhir.neuravet.alopecia.json",
+      "size" : 1607,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 90
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 283
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 40
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 50,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-PatientExample.json",
+      "size" : 286,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
+      "size" : 634,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 35,
+          "length" : 36
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 523
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 133
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 1606
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 48,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 50,
+          "length" : 3
+        }
+      ]
+    }
+  ]
+}
